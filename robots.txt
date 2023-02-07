@@ -1,3 +1,5 @@
+Sitemap: /geonetwork/srv/api/sitemap
+
 User-agent: spatineo
 Allow: /geoserver/wms
 Allow: /geoserver/wfs
