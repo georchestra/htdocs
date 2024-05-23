@@ -5,43 +5,54 @@
     <meta http-equiv="pragma" content="no-cache" />
     <meta name="robots" content="none" />
     <meta name="googlebot" content="noarchive" />
+    <meta name="refresh" content="5">
     <title>Site en maintenance</title>
     <style type="text/css">
       body {
-        background-color:#e6e6e6;
-        font-family:Calibri;
-        text-align:center;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f3f3f3;
+        font-family: Lato, sans-serif;
+        font-size: 17px;
+        line-height: 150%;
+        text-align: center;
       }
+
       #wrapper {
-        background:#fff;
-        width:492px;
-        position:relative;
-        margin-left:auto;
-        margin-right:auto;
-        text-align:left;
-        border:3px solid #999;
-        overflow:hidden;
-	padding: 30px;
-        border-bottom-right-radius: 16px;
-        border-bottom-left-radius: 16px;
+        background: #fff;
+        width: 492px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        overflow: hidden;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.2);
       }
+
       #wrapper p {
-        padding:5px;
+        padding: 5px;
       }
     </style>
   </head>
-  <body lang=FR>
-    <div id="wrapper">
-      <img src="http://www.georchestra.org/public/logos/georchestra_logo.png" alt="geOrchestra" />
-      <p>
-        Due to maintenance, this service is temporarily unavailable.
-      </p>
-      <p>We're sorry for the inconvenience !</p>
-      <p>Hint: do not close the tab - the requested page will show up in a few seconds.</p>
+  <body lang=EN>
+  <div id="wrapper">
+    <div style="display: flex; align-content: center; justify-content: center">
+      <img src="http://www.georchestra.org/public/georchestra-logo.svg" alt="geOrchestra" style="max-width: 100%"/>
     </div>
+    <hr style="margin: 20px 0">
+    <p>
+      Due to maintenance, this service is temporarily unavailable.
+    </p>
+    <p>We're sorry for the inconvenience !</p>
+    <p>Hint: do not close the tab - the requested page will show up in a few seconds.</p>
+  </div>
   </body>
-  <script>
-    window.setTimeout(function() {window.location.href = window.location.href}, 5000);
-  </script>
 </html>
 
